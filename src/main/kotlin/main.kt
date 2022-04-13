@@ -20,7 +20,7 @@ fun agoToText(){
         else if(hour.toInt() in 5..20){
             println("${hour.toInt()} часов назад")
         }
-        else println("${hour.toInt()} часа назад")//println("${hour.toInt()} часа назад")
+        else println("${hour.toInt()} часа назад")
         in 24*60*60..24*60*60*2 -> println("сегодня")
         in 24*60*60*2..24*60*60*3 -> println("вчера")
         else -> println("давно")
